@@ -1,0 +1,112 @@
+[
+	{
+		"slug": "prospera",
+		"name": "Próspera",
+		"category": "charter-city",
+		"tagline": "A startup city on the island of Roatán, Honduras",
+		"description": "Próspera is a special economic zone and charter city project on the island of Roatán, Honduras. It operates under a special legal framework (ZEDE) that allows for alternative governance structures, attracting entrepreneurs and innovators seeking regulatory flexibility.",
+		"founded": 2020,
+		"status": "active",
+		"location": {
+			"hasPhysical": true,
+			"coordinates": [16.3833, -86.4167],
+			"label": "Roatán, Honduras"
+		},
+		"focus": ["governance", "entrepreneurship", "innovation"],
+		"size": "100+ residents",
+		"links": {
+			"website": "https://prospera.hn",
+			"twitter": "https://twitter.com/ProsperaGlobal"
+		},
+		"joinInfo": "Apply for residency or e-residency through their website. Visit for tours and events.",
+		"lastUpdated": "2025-01-15"
+	},
+	{
+		"slug": "cabin",
+		"name": "Cabin",
+		"category": "network-city",
+		"tagline": "A decentralized city for online creators",
+		"description": "Cabin is building a network of coliving neighborhoods for people who want to live and work near nature while staying connected to an online community. Members can stay at various Cabin neighborhoods around the world.",
+		"founded": 2021,
+		"status": "active",
+		"location": {
+			"hasPhysical": true,
+			"coordinates": [30.2672, -97.7431],
+			"label": "Austin, TX (HQ) + distributed neighborhoods"
+		},
+		"focus": ["coliving", "creators", "nature"],
+		"size": "1000+ members",
+		"links": {
+			"website": "https://cabin.city",
+			"twitter": "https://twitter.com/cabindotcity",
+			"discord": "https://discord.gg/cabin"
+		},
+		"joinInfo": "Apply through their website for citizenship or neighborhood stays.",
+		"lastUpdated": "2025-01-15"
+	},
+	{
+		"slug": "zuzalu",
+		"name": "Zuzalu",
+		"category": "popup-city",
+		"tagline": "A two-month popup village experiment in Montenegro",
+		"description": "Zuzalu was a first-of-its-kind popup city experiment that brought together 200 residents for two months in Montenegro in 2023. It explored themes of longevity, public goods, network states, and zero-knowledge technology.",
+		"founded": 2023,
+		"status": "inactive",
+		"location": {
+			"hasPhysical": true,
+			"coordinates": [42.2917, 18.8403],
+			"label": "Lustica Bay, Montenegro"
+		},
+		"focus": ["longevity", "crypto", "public-goods"],
+		"size": "200 residents",
+		"links": {
+			"website": "https://zuzalu.city",
+			"twitter": "https://twitter.com/zaboratory"
+		},
+		"joinInfo": "The original Zuzalu has concluded. Follow for updates on future events and spinoffs.",
+		"lastUpdated": "2025-01-15"
+	},
+	{
+		"slug": "praxis",
+		"name": "Praxis",
+		"category": "network-state",
+		"tagline": "Building a new city from the ground up",
+		"description": "Praxis is building a new city focused on vitality—advancing human flourishing through better governance, health, and community. They are assembling a community of builders and acquiring land for their first physical location.",
+		"founded": 2019,
+		"status": "forming",
+		"location": {
+			"hasPhysical": false,
+			"label": "Location TBD (Mediterranean region)"
+		},
+		"focus": ["vitality", "governance", "health"],
+		"size": "10,000+ community members",
+		"links": {
+			"website": "https://praxissociety.com",
+			"twitter": "https://twitter.com/praboratory"
+		},
+		"joinInfo": "Apply for citizenship through their website. Various membership tiers available.",
+		"lastUpdated": "2025-01-15"
+	},
+	{
+		"slug": "culdesac",
+		"name": "Culdesac",
+		"category": "intentional-community",
+		"tagline": "America's first car-free neighborhood built from scratch",
+		"description": "Culdesac is a car-free neighborhood in Tempe, Arizona. Residents live without personal cars in a walkable community with shared amenities, courtyards, and easy access to transit.",
+		"founded": 2021,
+		"status": "active",
+		"location": {
+			"hasPhysical": true,
+			"coordinates": [33.4255, -111.9400],
+			"label": "Tempe, Arizona, USA"
+		},
+		"focus": ["car-free", "urban-design", "sustainability"],
+		"size": "1,000+ residents",
+		"links": {
+			"website": "https://culdesac.com",
+			"twitter": "https://twitter.com/culdesac"
+		},
+		"joinInfo": "Apply for an apartment through their website. Currently open for leasing.",
+		"lastUpdated": "2025-01-15"
+	}
+]
