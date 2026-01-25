@@ -48,13 +48,13 @@
 			const marker = leafletLib!.marker([lat, lng], { icon });
 
 			marker.bindPopup(`
-				<div style="min-width: 200px;">
-					<div style="display: inline-block; padding: 2px 8px; background: ${color}; color: white; border-radius: 4px; font-size: 11px; margin-bottom: 8px;">
+				<div class="popup-content">
+					<div class="popup-category" style="background: ${color};">
 						${CATEGORY_LABELS[community.category]}
 					</div>
-					<h3 style="margin: 0 0 4px 0; font-size: 16px;">${community.name}</h3>
-					<p style="margin: 0 0 8px 0; color: #666; font-size: 13px;">${community.tagline}</p>
-					<a href="/community/${community.slug}" style="color: #3b82f6; font-size: 13px;">View Profile →</a>
+					<h3 class="popup-title">${community.name}</h3>
+					<p class="popup-tagline">${community.tagline}</p>
+					<a href="/community/${community.slug}" class="popup-link">View Profile →</a>
 				</div>
 			`);
 

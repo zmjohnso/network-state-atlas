@@ -127,6 +127,8 @@
 		border: 1px solid var(--color-border);
 		border-radius: 6px;
 		font-size: 0.875rem;
+		background: var(--color-bg);
+		color: var(--color-text);
 	}
 
 	select {
@@ -134,7 +136,8 @@
 		border: 1px solid var(--color-border);
 		border-radius: 6px;
 		font-size: 0.875rem;
-		background: white;
+		background: var(--color-bg);
+		color: var(--color-text);
 	}
 
 	.grid {

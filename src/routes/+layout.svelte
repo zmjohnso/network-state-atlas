@@ -1,6 +1,7 @@
 <script lang="ts">
 	import '../app.css';
 	import { page } from '$app/stores';
+	import { theme } from '$lib/stores/theme';
 
 	const SITE_NAME = 'Network State Atlas';
 	const BASE_URL = 'https://networkstateatlas.com';
@@ -29,6 +30,25 @@
 		<nav class="nav">
 			<a href="/directory">Directory</a>
 			<a href="/about">About</a>
+			<button class="theme-toggle" on:click={() => theme.toggle()} aria-label="Toggle theme">
+				{#if $theme === 'light'}
+					<svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+						<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+					</svg>
+				{:else}
+					<svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+						<circle cx="12" cy="12" r="5"></circle>
+						<line x1="12" y1="1" x2="12" y2="3"></line>
+						<line x1="12" y1="21" x2="12" y2="23"></line>
+						<line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+						<line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+						<line x1="1" y1="12" x2="3" y2="12"></line>
+						<line x1="21" y1="12" x2="23" y2="12"></line>
+						<line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+						<line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+					</svg>
+				{/if}
+			</button>
 		</nav>
 	</header>
 	<main class="main">
@@ -70,11 +90,35 @@
 
 	.nav {
 		display: flex;
+		align-items: center;
 		gap: 1.5rem;
 	}
 
 	.main {
 		flex: 1;
 		margin-top: var(--header-height);
+	}
+
+	.theme-toggle {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 36px;
+		height: 36px;
+		padding: 0;
+		background: none;
+		border: 1px solid var(--color-border);
+		border-radius: 6px;
+		color: var(--color-text);
+		transition: background-color 0.2s;
+	}
+
+	.theme-toggle:hover {
+		background: var(--color-border);
+	}
+
+	.icon {
+		width: 18px;
+		height: 18px;
 	}
 </style>

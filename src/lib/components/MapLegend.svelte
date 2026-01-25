@@ -36,7 +36,7 @@
 		position: absolute;
 		bottom: 2rem;
 		left: 1rem;
-		background: white;
+		background: var(--color-bg);
 		border-radius: 8px;
 		box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 		z-index: 1000;

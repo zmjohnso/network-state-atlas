@@ -7,6 +7,16 @@
 	--color-primary-hover: #2563eb;
 	--font-sans: system-ui, -apple-system, sans-serif;
 	--header-height: 56px;
+	color-scheme: light dark;
+}
+
+[data-theme="dark"] {
+	--color-bg: #0f172a;
+	--color-text: #f1f5f9;
+	--color-text-muted: #94a3b8;
+	--color-border: #334155;
+	--color-primary: #60a5fa;
+	--color-primary-hover: #93c5fd;
 }
 
 *,
@@ -37,4 +47,44 @@ a:hover {
 button {
 	cursor: pointer;
 	font-family: inherit;
+}
+
+/* Leaflet popup styles */
+.leaflet-popup-content-wrapper {
+	background: var(--color-bg);
+	color: var(--color-text);
+}
+
+.leaflet-popup-tip {
+	background: var(--color-bg);
+}
+
+.popup-content {
+	min-width: 200px;
+}
+
+.popup-category {
+	display: inline-block;
+	padding: 2px 8px;
+	color: white;
+	border-radius: 4px;
+	font-size: 11px;
+	margin-bottom: 8px;
+}
+
+.popup-title {
+	margin: 0 0 4px 0;
+	font-size: 16px;
+	color: var(--color-text);
+}
+
+.popup-tagline {
+	margin: 0 0 8px 0;
+	color: var(--color-text-muted);
+	font-size: 13px;
+}
+
+.popup-link {
+	color: var(--color-primary);
+	font-size: 13px;
 }
