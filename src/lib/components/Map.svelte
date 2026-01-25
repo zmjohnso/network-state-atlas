@@ -17,7 +17,7 @@
 
 	$: filteredCommunities = communities.filter((c) => {
 		if (!c.location.hasPhysical || !c.location.coordinates) return false;
-		if (!visibleCategories.has(c.category)) return false;
+		if (!visibleCategories || !visibleCategories.has(c.category)) return false;
 		if (selectedStatus && c.status !== selectedStatus) return false;
 		if (searchQuery && !c.name.toLowerCase().includes(searchQuery.toLowerCase())) return false;
 		return true;
@@ -63,19 +63,26 @@
 	onMount(async () => {
 		if (!browser) return;
 
-		L = await import('leaflet');
+		const leaflet = await import('leaflet');
+		L = leaflet;
+		// Side-effect import that extends L namespace
 		await import('leaflet.markercluster');
 
-		map = L.map(mapElement).setView([20, 0], 2);
+		map = leaflet.map(mapElement).setView([20, 0], 2);
 
-		L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+		leaflet.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 			attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 		}).addTo(map);
 
-		markersLayer = new L.MarkerClusterGroup();
+		// MarkerClusterGroup is added to L by the side-effect import
+		markersLayer = new (leaflet as any).MarkerClusterGroup();
 		map.addLayer(markersLayer);
 
-		updateMarkers(filteredCommunities);
+		// Ensure map container is properly sized, then add markers
+		setTimeout(() => {
+			map?.invalidateSize();
+			updateMarkers(filteredCommunities);
+		}, 100);
 	});
 
 	onDestroy(() => {

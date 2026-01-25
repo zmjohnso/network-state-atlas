@@ -32,7 +32,7 @@
 	.filters {
 		position: absolute;
 		top: 1rem;
-		left: 1rem;
+		left: 3.5rem;
 		display: flex;
 		gap: 0.5rem;
 		z-index: 1000;
