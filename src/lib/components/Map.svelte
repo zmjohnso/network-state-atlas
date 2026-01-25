@@ -85,9 +85,18 @@
 		// Use the window.L which has MarkerClusterGroup attached
 		const L = (window as any).L;
 
+		// Calculate minimum zoom to fill container vertically
+		// At zoom 0, world is 256px tall. At zoom n, it's 256 * 2^n pixels
+		const containerHeight = mapElement.clientHeight;
+		const minZoomToFill = Math.ceil(Math.log2(containerHeight / 256));
+		const initialZoom = Math.max(2, minZoomToFill);
+
 		const mapInstance = L.map(mapElement, {
-			worldCopyJump: true
-		}).setView([20, 0], 2);
+			worldCopyJump: true,
+			minZoom: minZoomToFill,
+			maxBounds: [[-85, -Infinity], [85, Infinity]],
+			maxBoundsViscosity: 1.0
+		}).setView([20, 0], initialZoom);
 		map = mapInstance;
 
 		L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {

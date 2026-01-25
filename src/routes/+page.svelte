@@ -76,8 +76,10 @@
 
 <style>
 	.map-page {
-		height: calc(100vh - var(--header-height));
-		width: 100%;
-		position: relative;
+		position: fixed;
+		top: var(--header-height);
+		left: 0;
+		right: 0;
+		bottom: 0;
 	}
 </style>
