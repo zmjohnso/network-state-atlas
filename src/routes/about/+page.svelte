@@ -76,7 +76,7 @@
 		</p>
 		<p>
 			<strong>Contribute:</strong> Know of a community that should be listed? Found an error?
-			<a href="https://github.com" target="_blank" rel="noopener">Submit an issue on GitHub</a>.
+			<a href="https://github.com/zmjohnso/network-state-atlas" target="_blank" rel="noopener">Submit an issue on GitHub</a>.
 		</p>
 	</section>
 </article>
