@@ -88,3 +88,28 @@ button {
 	color: var(--color-primary);
 	font-size: 13px;
 }
+
+/* Dark mode map tiles via CSS filter */
+[data-theme="dark"] .leaflet-tile-pane {
+	filter: invert(100%) hue-rotate(180deg) brightness(95%) contrast(90%);
+}
+
+/* Dark mode Leaflet controls */
+[data-theme="dark"] .leaflet-control-zoom a {
+	background-color: var(--color-bg);
+	color: var(--color-text);
+	border-color: var(--color-border);
+}
+
+[data-theme="dark"] .leaflet-control-zoom a:hover {
+	background-color: var(--color-border);
+}
+
+[data-theme="dark"] .leaflet-control-attribution {
+	background-color: rgba(15, 23, 42, 0.8);
+	color: var(--color-text-muted);
+}
+
+[data-theme="dark"] .leaflet-control-attribution a {
+	color: var(--color-primary);
+}
