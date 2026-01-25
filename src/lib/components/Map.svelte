@@ -77,7 +77,8 @@
 
 		// Reuse existing window.L if it has MarkerClusterGroup, otherwise set up fresh
 		if (!(window as any).L?.MarkerClusterGroup) {
-			(window as any).L = leaflet;
+			// ES modules are frozen in production - create a mutable copy for markercluster to extend
+			(window as any).L = { ...leaflet };
 			await import('leaflet.markercluster');
 		}
 
