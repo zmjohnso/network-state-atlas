@@ -789,5 +789,180 @@
 		},
 		"joinInfo": "Join through their website.",
 		"lastUpdated": "2025-01-24"
+	},
+	{
+		"slug": "vitadao",
+		"name": "VitaDAO",
+		"category": "digital-community",
+		"tagline": "Community-owned collective funding longevity science research",
+		"description": "VitaDAO is a decentralized autonomous organization dedicated to funding and advancing early-stage longevity science research. Since its founding, the biotech DAO has invested over $2.5 million into longevity projects, democratizing drug development through community governance.",
+		"founded": 2021,
+		"status": "active",
+		"location": {
+			"hasPhysical": false,
+			"label": "Global (virtual)"
+		},
+		"focus": ["longevity", "biotech", "research"],
+		"size": "10,000+ token holders",
+		"links": {
+			"website": "https://vitadao.com",
+			"twitter": "https://x.com/vita_dao",
+			"discord": "https://discord.gg/vitadao"
+		},
+		"joinInfo": "Acquire VITA tokens to participate in governance and funding decisions.",
+		"lastUpdated": "2025-01-25"
+	},
+	{
+		"slug": "forma",
+		"name": "Forma",
+		"category": "digital-community",
+		"tagline": "Building Solana Economic Zones bridging crypto and national economies",
+		"description": "Forma is a think tank creating Solana Economic Zones that bridge the gap between the Solana economy and national economies. Their first zone launched in Buenos Aires, Argentina in 2024, with expansion to Dubai and Kazakhstan.",
+		"founded": 2024,
+		"status": "active",
+		"location": {
+			"hasPhysical": true,
+			"coordinates": [-34.6037, -58.3816],
+			"label": "Buenos Aires, Dubai, Kazakhstan"
+		},
+		"focus": ["crypto", "economic-zones", "solana"],
+		"size": "1,000+ participants",
+		"links": {
+			"website": "https://forma.city",
+			"twitter": "https://x.com/formacity"
+		},
+		"joinInfo": "Apply through their website for assemblies and programs.",
+		"lastUpdated": "2025-01-25"
+	},
+	{
+		"slug": "auroville",
+		"name": "Auroville",
+		"category": "intentional-community",
+		"tagline": "Universal township for human unity in Tamil Nadu, India",
+		"description": "Auroville is the world's largest intentional community, founded in 1968 with representatives from 124 countries. Based on the teachings of Sri Aurobindo and The Mother, it has grown from barren land to a 3,000-acre township with over 3 million trees planted, practicing non-hierarchical governance.",
+		"founded": 1968,
+		"status": "active",
+		"location": {
+			"hasPhysical": true,
+			"coordinates": [12.0055, 79.8096],
+			"label": "Tamil Nadu, India"
+		},
+		"focus": ["human-unity", "sustainability", "spirituality"],
+		"size": "3,000+ residents from 60+ countries",
+		"links": {
+			"website": "https://auroville.org",
+			"twitter": "https://x.com/Aborville"
+		},
+		"joinInfo": "Visit as a guest, volunteer, or apply for newcomer status through their website.",
+		"lastUpdated": "2025-01-25"
+	},
+	{
+		"slug": "findhorn",
+		"name": "Findhorn Ecovillage",
+		"category": "intentional-community",
+		"tagline": "Europe's oldest ecovillage blending sustainability with spirituality",
+		"description": "Findhorn began in 1962 when three people settled in a caravan by a remote Scottish bay. Now Europe's oldest ecovillage with around 500 residents, it's a founder member of the Global Ecovillage Network and holds the lowest recorded ecological footprint of any community in the industrialized world.",
+		"founded": 1962,
+		"status": "active",
+		"location": {
+			"hasPhysical": true,
+			"coordinates": [57.6593, -3.5993],
+			"label": "Moray, Scotland"
+		},
+		"focus": ["sustainability", "spirituality", "ecology"],
+		"size": "500+ residents",
+		"links": {
+			"website": "https://www.ecovillagefindhorn.com",
+			"twitter": "https://x.com/FindhornFdn"
+		},
+		"joinInfo": "Attend programs and workshops, or apply for residency through their foundation.",
+		"lastUpdated": "2025-01-25"
+	},
+	{
+		"slug": "damanhur",
+		"name": "Damanhur",
+		"category": "intentional-community",
+		"tagline": "Federation of spiritual communities with underground temples in Italy",
+		"description": "Damanhur is a federation of self-sustaining communities in the Italian Alps, founded in 1975. Famous for its hand-carved underground Temples of Humankind, the community has its own constitution, currency (the Credito), and centers across Europe, America, Australia, and Japan.",
+		"founded": 1975,
+		"status": "active",
+		"location": {
+			"hasPhysical": true,
+			"coordinates": [45.4186, 7.7489],
+			"label": "Piedmont, Italy"
+		},
+		"focus": ["spirituality", "art", "community"],
+		"size": "600+ residents",
+		"links": {
+			"website": "https://damanhur.org",
+			"twitter": "https://x.com/damaborgo"
+		},
+		"joinInfo": "Visit for tours of the Temples, attend courses, or inquire about citizenship.",
+		"lastUpdated": "2025-01-25"
+	},
+	{
+		"slug": "christiania",
+		"name": "Freetown Christiania",
+		"category": "intentional-community",
+		"tagline": "Self-governing anarchist commune in the heart of Copenhagen",
+		"description": "Christiania was founded in 1971 when squatters occupied an abandoned military base in Copenhagen. Now home to about 1,000 residents across 34 hectares, it operates as a self-governing community with its own flag, consensus-driven governance, and is Copenhagen's fourth largest tourist attraction.",
+		"founded": 1971,
+		"status": "active",
+		"location": {
+			"hasPhysical": true,
+			"coordinates": [55.6714, 12.5964],
+			"label": "Copenhagen, Denmark"
+		},
+		"focus": ["self-governance", "alternative-living", "community"],
+		"size": "1,000+ residents",
+		"links": {
+			"website": "https://www.christiania.org"
+		},
+		"joinInfo": "Visit freely; residency requires community approval and available housing.",
+		"lastUpdated": "2025-01-25"
+	},
+	{
+		"slug": "twin-oaks",
+		"name": "Twin Oaks",
+		"category": "intentional-community",
+		"tagline": "Income-sharing egalitarian community inspired by Walden Two",
+		"description": "Founded in 1967 and inspired by B.F. Skinner's Walden Two, Twin Oaks is one of the longest-enduring secular intentional communities in North America. About 100 people live on 450 acres in Virginia, sharing income and practicing cooperation, egalitarianism, and nonviolence.",
+		"founded": 1967,
+		"status": "active",
+		"location": {
+			"hasPhysical": true,
+			"coordinates": [38.0657, -78.0264],
+			"label": "Louisa, Virginia, USA"
+		},
+		"focus": ["egalitarianism", "income-sharing", "sustainability"],
+		"size": "100+ residents",
+		"links": {
+			"website": "https://www.twinoaks.org",
+			"twitter": "https://x.com/TwinOaksCmty"
+		},
+		"joinInfo": "Apply for a visitor period, then membership if mutually agreeable.",
+		"lastUpdated": "2025-01-25"
+	},
+	{
+		"slug": "dancing-rabbit",
+		"name": "Dancing Rabbit Ecovillage",
+		"category": "intentional-community",
+		"tagline": "Sustainable living laboratory in rural Missouri",
+		"description": "Dancing Rabbit is a 280-acre ecovillage in northeast Missouri founded in 1997 by Stanford students. Residents abide by ecological covenants promoting sustainability while maintaining individual autonomy. The community is growing toward a target of 500-1000 people.",
+		"founded": 1997,
+		"status": "active",
+		"location": {
+			"hasPhysical": true,
+			"coordinates": [40.4859, -92.1127],
+			"label": "Rutledge, Missouri, USA"
+		},
+		"focus": ["sustainability", "ecology", "community"],
+		"size": "70+ residents",
+		"links": {
+			"website": "https://www.dancingrabbit.org",
+			"twitter": "https://x.com/DancingRabbitEC"
+		},
+		"joinInfo": "Visit through their visitor program, then apply for residency.",
+		"lastUpdated": "2025-01-25"
 	}
 ]

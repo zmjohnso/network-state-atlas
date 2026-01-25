@@ -85,7 +85,9 @@
 		// Use the window.L which has MarkerClusterGroup attached
 		const L = (window as any).L;
 
-		const mapInstance = L.map(mapElement).setView([20, 0], 2);
+		const mapInstance = L.map(mapElement, {
+			worldCopyJump: true
+		}).setView([20, 0], 2);
 		map = mapInstance;
 
 		L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
