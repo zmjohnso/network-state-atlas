@@ -3,7 +3,7 @@
 		"slug": "prospera",
 		"name": "Próspera",
 		"category": "charter-city",
-		"tagline": "A startup city on the island of Roatán, Honduras",
+		"tagline": "Building a startup city on Honduras' Roatan Island",
 		"description": "Próspera is a special economic zone and charter city project on the island of Roatán, Honduras. It operates under a special legal framework (ZEDE) that allows for alternative governance structures, attracting entrepreneurs and innovators seeking regulatory flexibility.",
 		"founded": 2020,
 		"status": "active",
@@ -15,84 +15,85 @@
 		"focus": ["governance", "entrepreneurship", "innovation"],
 		"size": "100+ residents",
 		"links": {
-			"website": "https://prospera.hn",
-			"twitter": "https://twitter.com/ProsperaGlobal"
+			"website": "https://prospera.co",
+			"twitter": "https://x.com/prosperaglobal"
 		},
 		"joinInfo": "Apply for residency or e-residency through their website. Visit for tours and events.",
-		"lastUpdated": "2025-01-15"
+		"lastUpdated": "2025-01-24"
 	},
 	{
 		"slug": "cabin",
 		"name": "Cabin",
 		"category": "network-city",
-		"tagline": "A decentralized city for online creators",
+		"tagline": "Building a decentralized city for creators",
 		"description": "Cabin is building a network of coliving neighborhoods for people who want to live and work near nature while staying connected to an online community. Members can stay at various Cabin neighborhoods around the world.",
 		"founded": 2021,
 		"status": "active",
 		"location": {
 			"hasPhysical": true,
 			"coordinates": [30.2672, -97.7431],
-			"label": "Austin, TX (HQ) + distributed neighborhoods"
+			"label": "USA, Canada, Global"
 		},
 		"focus": ["coliving", "creators", "nature"],
 		"size": "1000+ members",
 		"links": {
 			"website": "https://cabin.city",
-			"twitter": "https://twitter.com/cabindotcity",
-			"discord": "https://discord.gg/cabin"
+			"twitter": "https://x.com/creatorcabins",
+			"discord": "https://discord.com/invite/ttgRU7QKVE"
 		},
 		"joinInfo": "Apply through their website for citizenship or neighborhood stays.",
-		"lastUpdated": "2025-01-15"
+		"lastUpdated": "2025-01-24"
 	},
 	{
 		"slug": "zuzalu",
 		"name": "Zuzalu",
 		"category": "popup-city",
-		"tagline": "A two-month popup village experiment in Montenegro",
-		"description": "Zuzalu was a first-of-its-kind popup city experiment that brought together 200 residents for two months in Montenegro in 2023. It explored themes of longevity, public goods, network states, and zero-knowledge technology.",
+		"tagline": "A pop-up city fostering innovation and cultural exchange",
+		"description": "Zuzalu was a first-of-its-kind popup city experiment that brought together 200 residents for two months in Montenegro in 2023. It explored themes of longevity, public goods, network states, and zero-knowledge technology. The model has since inspired numerous spinoff events.",
 		"founded": 2023,
-		"status": "inactive",
+		"status": "active",
 		"location": {
 			"hasPhysical": true,
 			"coordinates": [42.2917, 18.8403],
-			"label": "Lustica Bay, Montenegro"
+			"label": "Montenegro (original), various locations"
 		},
 		"focus": ["longevity", "crypto", "public-goods"],
-		"size": "200 residents",
+		"size": "200+ per event",
 		"links": {
 			"website": "https://zuzalu.city",
-			"twitter": "https://twitter.com/zaboratory"
+			"twitter": "https://x.com/Zuzalu_city"
 		},
-		"joinInfo": "The original Zuzalu has concluded. Follow for updates on future events and spinoffs.",
-		"lastUpdated": "2025-01-15"
+		"joinInfo": "Check the Zuzalu documentation for upcoming events and collaboration opportunities.",
+		"lastUpdated": "2025-01-24"
 	},
 	{
 		"slug": "praxis",
 		"name": "Praxis",
 		"category": "network-state",
-		"tagline": "Building a new city from the ground up",
-		"description": "Praxis is building a new city focused on vitality—advancing human flourishing through better governance, health, and community. They are assembling a community of builders and acquiring land for their first physical location.",
+		"tagline": "Building a new city that enables us to live more vital lives",
+		"description": "Praxis is building a new city focused on vitality—advancing human flourishing through better governance, health, and community. They are assembling a community of builders and acquiring land for their first physical location in the Mediterranean region.",
 		"founded": 2019,
 		"status": "forming",
 		"location": {
 			"hasPhysical": false,
-			"label": "Location TBD (Mediterranean region)"
+			"label": "Global, USA, Canada, Europe"
 		},
 		"focus": ["vitality", "governance", "health"],
 		"size": "10,000+ community members",
 		"links": {
 			"website": "https://praxissociety.com",
-			"twitter": "https://twitter.com/praboratory"
+			"twitter": "https://x.com/PraxisSociety",
+			"discord": "https://discord.gg/praxis"
 		},
 		"joinInfo": "Apply for citizenship through their website. Various membership tiers available.",
-		"lastUpdated": "2025-01-15"
+		"lastUpdated": "2025-01-24"
 	},
 	{
 		"slug": "culdesac",
 		"name": "Culdesac",
 		"category": "intentional-community",
-		"tagline": "America's first car-free neighborhood built from scratch",
-		"description": "Culdesac is a car-free neighborhood in Tempe, Arizona. Residents live without personal cars in a walkable community with shared amenities, courtyards, and easy access to transit.",
+		"tagline": "Building a car-free neighborhood",
+		"description": "Culdesac is America's first car-free neighborhood built from scratch. Located in Tempe, Arizona, residents live without personal cars in a walkable community with shared amenities, courtyards, and easy access to transit.",
 		"founded": 2021,
 		"status": "active",
 		"location": {
@@ -104,9 +105,689 @@
 		"size": "1,000+ residents",
 		"links": {
 			"website": "https://culdesac.com",
-			"twitter": "https://twitter.com/culdesac"
+			"twitter": "https://x.com/culdesac"
 		},
 		"joinInfo": "Apply for an apartment through their website. Currently open for leasing.",
-		"lastUpdated": "2025-01-15"
+		"lastUpdated": "2025-01-24"
+	},
+	{
+		"slug": "network-school",
+		"name": "Network School",
+		"category": "popup-city",
+		"tagline": "A startup society for tech founders, AI creators, and remote workers",
+		"description": "Network School is a physical campus and online community founded by Balaji Srinivasan. It brings together tech founders, AI creators, and remote workers in the Singapore-Johor Special Economic Zone to learn, build, and network.",
+		"founded": 2024,
+		"status": "active",
+		"location": {
+			"hasPhysical": true,
+			"coordinates": [1.4655, 103.7578],
+			"label": "Singapore-Johor Special Economic Zone"
+		},
+		"focus": ["technology", "AI", "entrepreneurship"],
+		"size": "500+ members",
+		"links": {
+			"website": "https://ns.com",
+			"twitter": "https://x.com/balajis"
+		},
+		"joinInfo": "Apply through the Network School website for admission.",
+		"lastUpdated": "2025-01-24"
+	},
+	{
+		"slug": "satoshi-island",
+		"name": "Satoshi Island",
+		"category": "charter-city",
+		"tagline": "Building a crypto community in Vanuatu",
+		"description": "Satoshi Island is an ambitious project to build a crypto-focused community on a private island in Vanuatu. The project aims to create a physical home for the crypto community with sustainable infrastructure and blockchain-native governance.",
+		"founded": 2021,
+		"status": "forming",
+		"location": {
+			"hasPhysical": true,
+			"coordinates": [-17.7333, 168.3167],
+			"label": "Vanuatu"
+		},
+		"focus": ["crypto", "sustainability", "community"],
+		"size": "21,000 NFT holders",
+		"links": {
+			"website": "https://satoshi-island.com",
+			"twitter": "https://x.com/satoshiisland",
+			"discord": "https://discord.gg/satoshiisland"
+		},
+		"joinInfo": "Purchase citizenship NFTs or apply through their website.",
+		"lastUpdated": "2025-01-24"
+	},
+	{
+		"slug": "citydao",
+		"name": "CityDAO",
+		"category": "digital-community",
+		"tagline": "Building a blockchain-native city",
+		"description": "CityDAO is a decentralized autonomous organization working to build a city on the blockchain. They've purchased land in Wyoming and are experimenting with collective land ownership and governance through NFTs and tokens.",
+		"founded": 2021,
+		"status": "active",
+		"location": {
+			"hasPhysical": true,
+			"coordinates": [44.5, -109.5],
+			"label": "Wyoming, USA + Global"
+		},
+		"focus": ["blockchain", "governance", "land-ownership"],
+		"size": "6,000+ citizens",
+		"links": {
+			"website": "https://citydao.io",
+			"twitter": "https://x.com/CityDAO",
+			"discord": "https://discord.gg/B9YbPNwcD3"
+		},
+		"joinInfo": "Join by purchasing a Citizen NFT or participating in governance.",
+		"lastUpdated": "2025-01-24"
+	},
+	{
+		"slug": "afropolitan",
+		"name": "Afropolitan",
+		"category": "network-state",
+		"tagline": "Building a pan-African digital nation",
+		"description": "Afropolitan is building the first Internet Country, enabling Africans globally to build abundant lives. The project combines digital citizenship with physical community spaces across Africa, Brazil, and the USA.",
+		"founded": 2022,
+		"status": "active",
+		"location": {
+			"hasPhysical": true,
+			"coordinates": [6.5244, 3.3792],
+			"label": "Africa, Brazil, USA"
+		},
+		"focus": ["pan-african", "digital-nation", "prosperity"],
+		"size": "10,000+ members",
+		"links": {
+			"website": "https://afropolitan.io",
+			"twitter": "https://x.com/afropolitan",
+			"discord": "https://discord.gg/NhJctu3m"
+		},
+		"joinInfo": "Apply for citizenship through their Typeform application.",
+		"lastUpdated": "2025-01-24"
+	},
+	{
+		"slug": "liberland",
+		"name": "Liberland",
+		"category": "network-state",
+		"tagline": "Creating a new libertarian country based on personal and economic freedom",
+		"description": "The Free Republic of Liberland is a self-proclaimed micronation on the western bank of the Danube river, between Croatia and Serbia. Founded on libertarian principles, it aims to create a nation with minimal government and maximum individual freedom.",
+		"founded": 2015,
+		"status": "active",
+		"location": {
+			"hasPhysical": true,
+			"coordinates": [45.7667, 18.8667],
+			"label": "Croatia/Serbia border"
+		},
+		"focus": ["libertarianism", "freedom", "minimal-government"],
+		"size": "700,000+ registered citizens",
+		"links": {
+			"website": "https://liberland.org",
+			"twitter": "https://x.com/liberland_org"
+		},
+		"joinInfo": "Apply for e-residency or citizenship through the official website.",
+		"lastUpdated": "2025-01-24"
+	},
+	{
+		"slug": "nation3",
+		"name": "Nation3",
+		"category": "digital-community",
+		"tagline": "Building a web3 solarpunk society",
+		"description": "Nation3 is building a sovereign cloud nation—a digital-first nation state with its own jurisdiction, passport NFTs, and governance system. The vision is to create a solarpunk society that exists primarily online.",
+		"founded": 2022,
+		"status": "active",
+		"location": {
+			"hasPhysical": false,
+			"label": "Global (virtual)"
+		},
+		"focus": ["web3", "solarpunk", "governance"],
+		"size": "5,000+ passport holders",
+		"links": {
+			"website": "https://nation3.org",
+			"twitter": "https://x.com/Nation3DAO",
+			"discord": "https://discord.gg/nation3"
+		},
+		"joinInfo": "Acquire a Nation3 passport NFT to become a citizen.",
+		"lastUpdated": "2025-01-24"
+	},
+	{
+		"slug": "city-of-telosa",
+		"name": "City of Telosa",
+		"category": "charter-city",
+		"tagline": "Creating an economic system where citizens have a stake in the city's land",
+		"description": "Telosa is a planned utopian city in the American desert founded by Marc Lore. The city will feature innovative urban design, sustainable infrastructure, and a new economic model called Equitism where residents share in the land value appreciation.",
+		"founded": 2021,
+		"status": "forming",
+		"location": {
+			"hasPhysical": false,
+			"label": "USA (location TBD)"
+		},
+		"focus": ["urban-design", "equitism", "sustainability"],
+		"size": "Planned: 5 million residents",
+		"links": {
+			"website": "https://cityoftelosa.com",
+			"twitter": "https://x.com/CityofTelosa"
+		},
+		"joinInfo": "Sign up for updates and contact through their website.",
+		"lastUpdated": "2025-01-24"
+	},
+	{
+		"slug": "edge-esmeralda",
+		"name": "Edge Esmeralda",
+		"category": "popup-city",
+		"tagline": "A month-long gathering for people building a brighter future",
+		"description": "Edge Esmeralda is a popup city event that brings together builders, creators, and innovators for an immersive month-long experience. Part of the growing Edge City network of popup communities around the world.",
+		"founded": 2024,
+		"status": "active",
+		"location": {
+			"hasPhysical": true,
+			"coordinates": [37.7749, -122.4194],
+			"label": "USA (various locations)"
+		},
+		"focus": ["innovation", "community", "future-building"],
+		"size": "300+ per event",
+		"links": {
+			"website": "https://edgecity.live",
+			"twitter": "https://x.com/EdgeEsmeralda"
+		},
+		"joinInfo": "Apply through their ticketing platform for upcoming events.",
+		"lastUpdated": "2025-01-24"
+	},
+	{
+		"slug": "infinita",
+		"name": "Infinita",
+		"category": "network-city",
+		"tagline": "Accelerating life extension technologies through a decentralized city model",
+		"description": "Infinita (formerly Vitalia) is a special economic zone in Próspera, Honduras focused on longevity research and life extension. It brings together researchers, entrepreneurs, and biohackers to accelerate anti-aging technologies.",
+		"founded": 2023,
+		"status": "active",
+		"location": {
+			"hasPhysical": true,
+			"coordinates": [16.3833, -86.4167],
+			"label": "Roatán, Honduras"
+		},
+		"focus": ["longevity", "biotech", "life-extension"],
+		"size": "100+ residents",
+		"links": {
+			"website": "https://infinita.city",
+			"twitter": "https://x.com/InfinitaCity"
+		},
+		"joinInfo": "Apply to attend Infinita events or become a resident.",
+		"lastUpdated": "2025-01-24"
+	},
+	{
+		"slug": "moondao",
+		"name": "MoonDAO",
+		"category": "digital-community",
+		"tagline": "Funding challenges that get us closer to a lunar settlement",
+		"description": "MoonDAO is a decentralized autonomous organization focused on making space exploration accessible to everyone. They fund, collaborate, and compete on challenges that advance humanity's presence in space.",
+		"founded": 2021,
+		"status": "active",
+		"location": {
+			"hasPhysical": false,
+			"label": "Global (virtual)"
+		},
+		"focus": ["space", "decentralization", "exploration"],
+		"size": "5,000+ members",
+		"links": {
+			"website": "https://moondao.com",
+			"twitter": "https://x.com/OfficialMoonDAO"
+		},
+		"joinInfo": "Become a citizen by joining the MoonDAO community.",
+		"lastUpdated": "2025-01-24"
+	},
+	{
+		"slug": "blue-frontier",
+		"name": "Blue Frontier",
+		"category": "charter-city",
+		"tagline": "Building the first seastead with innovative governance and sustainable living",
+		"description": "Blue Frontier (formerly The Seasteading Institute) is working to build permanent floating communities on the ocean. The project aims to create new jurisdictions with innovative governance and sustainable ocean-based living.",
+		"founded": 2008,
+		"status": "forming",
+		"location": {
+			"hasPhysical": false,
+			"label": "French Polynesia (planned)"
+		},
+		"focus": ["seasteading", "ocean-living", "governance"],
+		"size": "10,000+ supporters",
+		"links": {
+			"website": "https://seasteading.org",
+			"twitter": "https://x.com/seasteading"
+		},
+		"joinInfo": "Get involved through their website or attend seasteading conferences.",
+		"lastUpdated": "2025-01-24"
+	},
+	{
+		"slug": "montelibero",
+		"name": "Montelibero",
+		"category": "intentional-community",
+		"tagline": "Building a libertarian society in Europe, starting with Montenegro",
+		"description": "Montelibero is a community project to create a libertarian enclave in Montenegro. Members are relocating to Montenegro to build a community focused on freedom, minimal state intervention, and voluntary cooperation.",
+		"founded": 2020,
+		"status": "active",
+		"location": {
+			"hasPhysical": true,
+			"coordinates": [42.4304, 19.2594],
+			"label": "Montenegro"
+		},
+		"focus": ["libertarianism", "community", "freedom"],
+		"size": "100+ residents",
+		"links": {
+			"website": "https://montelibero.org",
+			"twitter": "https://x.com/MonteliberoFSPE"
+		},
+		"joinInfo": "Learn how to participate remotely or relocate through their website.",
+		"lastUpdated": "2025-01-24"
+	},
+	{
+		"slug": "dont-die",
+		"name": "Don't Die",
+		"category": "network-state",
+		"tagline": "Defeating all causes of human and planetary death, promoting prosperity and longevity",
+		"description": "Don't Die is Bryan Johnson's movement to reverse aging and promote radical life extension. The community focuses on longevity protocols, health optimization, and building a future where death is optional.",
+		"founded": 2023,
+		"status": "active",
+		"location": {
+			"hasPhysical": false,
+			"label": "USA, Global"
+		},
+		"focus": ["longevity", "health", "biohacking"],
+		"size": "100,000+ followers",
+		"links": {
+			"website": "https://dontdie.com",
+			"twitter": "https://x.com/bryan_johnson",
+			"discord": "https://discord.gg/bryanjohnson"
+		},
+		"joinInfo": "Join the Don't Die community through their website.",
+		"lastUpdated": "2025-01-24"
+	},
+	{
+		"slug": "plumia",
+		"name": "Plumia",
+		"category": "digital-community",
+		"tagline": "Building a borderless society for digital nomads",
+		"description": "Plumia is creating a new kind of country designed for digital nomads and remote workers. The project offers a sense of belonging and community services for location-independent people around the world.",
+		"founded": 2021,
+		"status": "active",
+		"location": {
+			"hasPhysical": true,
+			"coordinates": [31.6295, -7.9811],
+			"label": "Morocco, Global"
+		},
+		"focus": ["digital-nomads", "borderless", "community"],
+		"size": "5,000+ members",
+		"links": {
+			"website": "https://plumia.org",
+			"twitter": "https://x.com/PlumiaCountry"
+		},
+		"joinInfo": "Get involved through their website.",
+		"lastUpdated": "2025-01-24"
+	},
+	{
+		"slug": "logos",
+		"name": "Logos",
+		"category": "digital-community",
+		"tagline": "Creating a self-sovereign, privacy-preserving, decentralized network state",
+		"description": "Logos is building a trust-minimized, decentralized network state. The project develops technologies for self-sovereignty, privacy, and freedom, including communication tools and governance systems.",
+		"founded": 2022,
+		"status": "active",
+		"location": {
+			"hasPhysical": false,
+			"label": "Global (virtual)"
+		},
+		"focus": ["privacy", "decentralization", "self-sovereignty"],
+		"size": "10,000+ community members",
+		"links": {
+			"website": "https://logos.co",
+			"twitter": "https://x.com/logos_network",
+			"discord": "https://discord.gg/logosnetwork"
+		},
+		"joinInfo": "Participate through their website and community channels.",
+		"lastUpdated": "2025-01-24"
+	},
+	{
+		"slug": "gelephu-mindfulness-city",
+		"name": "Gelephu Mindfulness City",
+		"category": "special-economic-zone",
+		"tagline": "Integrating economic growth with mindfulness and sustainability",
+		"description": "Gelephu Mindfulness City is an ambitious project by the Kingdom of Bhutan to create a new city that integrates economic development with mindfulness, sustainability, and Gross National Happiness principles.",
+		"founded": 2024,
+		"status": "forming",
+		"location": {
+			"hasPhysical": true,
+			"coordinates": [26.8614, 90.4947],
+			"label": "Bhutan"
+		},
+		"focus": ["mindfulness", "sustainability", "happiness"],
+		"size": "Planned: 1 million residents",
+		"links": {
+			"website": "https://gmc.bt",
+			"twitter": "https://x.com/gelephumindcity"
+		},
+		"joinInfo": "Engage through the GMC website for opportunities.",
+		"lastUpdated": "2025-01-24"
+	},
+	{
+		"slug": "free-madeira",
+		"name": "FREE Madeira",
+		"category": "special-economic-zone",
+		"tagline": "Promoting Madeira as a hub for Bitcoin and blockchain innovation",
+		"description": "FREE Madeira is a movement to establish Madeira, Portugal as a Bitcoin-friendly jurisdiction. The initiative works with local government to create favorable conditions for crypto businesses and enthusiasts.",
+		"founded": 2022,
+		"status": "active",
+		"location": {
+			"hasPhysical": true,
+			"coordinates": [32.6669, -16.9241],
+			"label": "Madeira, Portugal"
+		},
+		"focus": ["bitcoin", "blockchain", "innovation"],
+		"size": "1,000+ community members",
+		"links": {
+			"website": "https://freemadeira.com",
+			"twitter": "https://x.com/FREEMadeiraOrg"
+		},
+		"joinInfo": "Contact through their website to get involved.",
+		"lastUpdated": "2025-01-24"
+	},
+	{
+		"slug": "vitalist-bay",
+		"name": "Vitalist Bay",
+		"category": "popup-city",
+		"tagline": "Bringing together the world's leading minds to extend human healthspan",
+		"description": "Vitalist Bay is a popup city focused on longevity science and healthspan extension. It brings together researchers, entrepreneurs, and biohackers to accelerate progress on anti-aging technologies.",
+		"founded": 2024,
+		"status": "active",
+		"location": {
+			"hasPhysical": true,
+			"coordinates": [37.7749, -122.4194],
+			"label": "USA"
+		},
+		"focus": ["longevity", "healthspan", "science"],
+		"size": "200+ per event",
+		"links": {
+			"website": "https://vitalistbay.com",
+			"twitter": "https://x.com/VitalistBay"
+		},
+		"joinInfo": "Apply through their website for upcoming events.",
+		"lastUpdated": "2025-01-24"
+	},
+	{
+		"slug": "kift",
+		"name": "Kift",
+		"category": "network-city",
+		"tagline": "Building a vanlife community",
+		"description": "Kift is creating a network of mobile living communities for vanlifers and nomads. Members get access to land, resources, and community across multiple locations throughout North America.",
+		"founded": 2021,
+		"status": "active",
+		"location": {
+			"hasPhysical": true,
+			"coordinates": [39.8283, -98.5795],
+			"label": "USA, Canada, Global"
+		},
+		"focus": ["vanlife", "mobility", "community"],
+		"size": "5,000+ members",
+		"links": {
+			"website": "https://kift.com",
+			"twitter": "https://x.com/kiftlife",
+			"discord": "https://discord.gg/tSKesnsPWu"
+		},
+		"joinInfo": "Apply for membership through their website.",
+		"lastUpdated": "2025-01-24"
+	},
+	{
+		"slug": "spectra",
+		"name": "Spectra Cities",
+		"category": "network-city",
+		"tagline": "Creating sustainable, human-centered urbanization combining physical and virtual worlds",
+		"description": "Spectra is building a network of sustainable micro-cities that combine physical placemaking with virtual world-building. The project focuses on creating human-centered, technologically progressive urban environments.",
+		"founded": 2022,
+		"status": "active",
+		"location": {
+			"hasPhysical": true,
+			"coordinates": [18.4655, -66.1057],
+			"label": "Puerto Rico, Global"
+		},
+		"focus": ["sustainability", "urban-design", "technology"],
+		"size": "1,000+ community members",
+		"links": {
+			"website": "https://spectracities.com",
+			"twitter": "https://x.com/spectracities",
+			"discord": "https://discord.gg/V7fg7h47sR"
+		},
+		"joinInfo": "Apply through their website.",
+		"lastUpdated": "2025-01-24"
+	},
+	{
+		"slug": "cohere",
+		"name": "Cohere",
+		"category": "network-city",
+		"tagline": "Creating a global network of coliving communities",
+		"description": "Cohere is building a network of coliving communities across the Americas. Members can live, work, and connect across multiple locations in Antigua, Ecuador, Brazil, and beyond.",
+		"founded": 2022,
+		"status": "active",
+		"location": {
+			"hasPhysical": true,
+			"coordinates": [17.0608, -61.7964],
+			"label": "Antigua, Ecuador, Brazil, Global"
+		},
+		"focus": ["coliving", "community", "location-independence"],
+		"size": "500+ members",
+		"links": {
+			"website": "https://cohere.network",
+			"twitter": "https://x.com/coherenetwork"
+		},
+		"joinInfo": "Apply for membership through their website.",
+		"lastUpdated": "2025-01-24"
+	},
+	{
+		"slug": "porta-norte",
+		"name": "Porta Norte",
+		"category": "intentional-community",
+		"tagline": "Building a European town integrated with nature",
+		"description": "Porta Norte is developing a new town in Europe that integrates modern living with nature. The project emphasizes sustainable development, community connection, and quality of life.",
+		"founded": 2022,
+		"status": "forming",
+		"location": {
+			"hasPhysical": false,
+			"label": "Europe (location TBD)"
+		},
+		"focus": ["nature", "sustainability", "community"],
+		"size": "1,000+ interested",
+		"links": {
+			"website": "https://portanorte.eu",
+			"twitter": "https://x.com/portanortepa"
+		},
+		"joinInfo": "Express interest through their Google Form.",
+		"lastUpdated": "2025-01-24"
+	},
+	{
+		"slug": "tamera",
+		"name": "Tamera",
+		"category": "intentional-community",
+		"tagline": "Empowering people worldwide to build a regenerative, nonviolent culture",
+		"description": "Tamera is a peace research village in Portugal founded in 1995. The community focuses on developing models for nonviolent coexistence, ecological sustainability, and healing the relationship between humans and nature.",
+		"founded": 1995,
+		"status": "active",
+		"location": {
+			"hasPhysical": true,
+			"coordinates": [37.7048, -8.5172],
+			"label": "Portugal"
+		},
+		"focus": ["peace", "ecology", "regeneration"],
+		"size": "200+ residents",
+		"links": {
+			"website": "https://tamera.org"
+		},
+		"joinInfo": "Visit for courses and programs through their website.",
+		"lastUpdated": "2025-01-24"
+	},
+	{
+		"slug": "ciudad-morazan",
+		"name": "Ciudad Morazán",
+		"category": "charter-city",
+		"tagline": "Creating a safe, self-sustaining, and business-friendly community",
+		"description": "Ciudad Morazán is a private city development in Honduras offering industrial, residential, and commercial spaces. The project operates under Honduras' ZEDE framework with its own governance structure.",
+		"founded": 2020,
+		"status": "active",
+		"location": {
+			"hasPhysical": true,
+			"coordinates": [15.5050, -88.0250],
+			"label": "Honduras"
+		},
+		"focus": ["business", "safety", "self-sufficiency"],
+		"size": "1,000+ residents and workers",
+		"links": {
+			"website": "https://morazan.city",
+			"twitter": "https://x.com/ciudadmorazan1"
+		},
+		"joinInfo": "Contact through their website for residency or business opportunities.",
+		"lastUpdated": "2025-01-24"
+	},
+	{
+		"slug": "itana",
+		"name": "Itana by Talent Cities",
+		"category": "charter-city",
+		"tagline": "Building a remote-work-friendly city in Nigeria's Lekki Free Zone",
+		"description": "Itana is developing a modern, tech-enabled city in Nigeria's Lekki Free Trade Zone. The project aims to create a hub for African tech talent and remote workers with world-class infrastructure.",
+		"founded": 2022,
+		"status": "forming",
+		"location": {
+			"hasPhysical": true,
+			"coordinates": [6.4698, 3.6059],
+			"label": "Lagos, Nigeria"
+		},
+		"focus": ["technology", "remote-work", "africa"],
+		"size": "5,000+ interested",
+		"links": {
+			"website": "https://itana.africa",
+			"twitter": "https://x.com/itanaafrica"
+		},
+		"joinInfo": "Apply through their Typeform.",
+		"lastUpdated": "2025-01-24"
+	},
+	{
+		"slug": "zu-grama",
+		"name": "Zu Grama",
+		"category": "popup-city",
+		"tagline": "Catapulting India's innovation ecosystem by connecting local talent with international experts",
+		"description": "Zu Grama is a popup city initiative in India that brings together local entrepreneurs, researchers, and international innovators. The project aims to accelerate India's tech and startup ecosystem through intensive collaboration events.",
+		"founded": 2024,
+		"status": "active",
+		"location": {
+			"hasPhysical": true,
+			"coordinates": [12.9716, 77.5946],
+			"label": "India"
+		},
+		"focus": ["innovation", "entrepreneurship", "india"],
+		"size": "200+ per event",
+		"links": {
+			"website": "https://zugrama.com",
+			"twitter": "https://x.com/ZuGramaIndia"
+		},
+		"joinInfo": "Apply through their Google Form for upcoming events.",
+		"lastUpdated": "2025-01-24"
+	},
+	{
+		"slug": "zuitzerland",
+		"name": "Zuitzerland",
+		"category": "popup-city",
+		"tagline": "Developing decentralized leadership models and an integrated network society",
+		"description": "Zuitzerland is a popup village in Switzerland focused on developing new models for decentralized governance and network society. The project applies principles of defensive accelerationism and community building.",
+		"founded": 2024,
+		"status": "active",
+		"location": {
+			"hasPhysical": true,
+			"coordinates": [46.8182, 8.2275],
+			"label": "Switzerland"
+		},
+		"focus": ["governance", "decentralization", "community"],
+		"size": "150+ per event",
+		"links": {
+			"website": "https://zuitzerland.ch",
+			"twitter": "https://x.com/zuitzerland"
+		},
+		"joinInfo": "Apply through their application form.",
+		"lastUpdated": "2025-01-24"
+	},
+	{
+		"slug": "embassy-network",
+		"name": "Embassy Network",
+		"category": "network-city",
+		"tagline": "Creating place-based communities experimenting with new forms of governance and solidarity",
+		"description": "The Embassy Network is a global network of place-based communities sharing resources and experimenting with new forms of living together. Houses in the network operate as coliving spaces with shared values.",
+		"founded": 2012,
+		"status": "active",
+		"location": {
+			"hasPhysical": true,
+			"coordinates": [37.7749, -122.4194],
+			"label": "USA, Costa Rica, Spain, Germany, Puerto Rico, Canada"
+		},
+		"focus": ["coliving", "governance", "solidarity"],
+		"size": "500+ residents across houses",
+		"links": {
+			"website": "https://embassynetwork.com",
+			"twitter": "https://x.com/EmbassyNetwork"
+		},
+		"joinInfo": "Explore houses and apply through their website.",
+		"lastUpdated": "2025-01-24"
+	},
+	{
+		"slug": "closer",
+		"name": "Closer",
+		"category": "digital-community",
+		"tagline": "Pioneer the future of regenerative living through technology",
+		"description": "Closer is building technology and communities for regenerative living. The platform helps communities coordinate, share resources, and build sustainable models for collective living.",
+		"founded": 2020,
+		"status": "active",
+		"location": {
+			"hasPhysical": false,
+			"label": "Global (virtual)"
+		},
+		"focus": ["regeneration", "technology", "community"],
+		"size": "1,000+ users",
+		"links": {
+			"website": "https://closer.earth",
+			"twitter": "https://x.com/closerearth"
+		},
+		"joinInfo": "Contact the team at team@closer.earth",
+		"lastUpdated": "2025-01-24"
+	},
+	{
+		"slug": "urbit",
+		"name": "Urbit",
+		"category": "digital-community",
+		"tagline": "Creating a decentralized computing platform where users own their data and identity",
+		"description": "Urbit is a new computing platform designed for personal sovereignty. Users have complete ownership of their data, identities, and services. The community is building a new internet from first principles.",
+		"founded": 2013,
+		"status": "active",
+		"location": {
+			"hasPhysical": false,
+			"label": "Global (virtual)"
+		},
+		"focus": ["computing", "sovereignty", "decentralization"],
+		"size": "10,000+ planet owners",
+		"links": {
+			"website": "https://urbit.org",
+			"twitter": "https://x.com/urbit"
+		},
+		"joinInfo": "Get started by acquiring an Urbit ID through their website.",
+		"lastUpdated": "2025-01-24"
+	},
+	{
+		"slug": "viva-city",
+		"name": "Viva City",
+		"category": "popup-city",
+		"tagline": "Building a city focused on longevity and advanced medicine",
+		"description": "Viva City is a popup city initiative focused on longevity research, advanced medicine, and health optimization. The project brings together researchers, doctors, and health enthusiasts to advance human healthspan.",
+		"founded": 2024,
+		"status": "forming",
+		"location": {
+			"hasPhysical": true,
+			"coordinates": [25.7617, -80.1918],
+			"label": "USA"
+		},
+		"focus": ["longevity", "medicine", "health"],
+		"size": "500+ interested",
+		"links": {
+			"website": "https://cityofviva.com",
+			"twitter": "https://x.com/JoinVivaCity"
+		},
+		"joinInfo": "Join through their website.",
+		"lastUpdated": "2025-01-24"
 	}
 ]
