@@ -1,6 +1,12 @@
 <svelte:head>
 	<title>About | Network State Atlas</title>
 	<meta name="description" content="Learn about network states and how to use this atlas." />
+	<!-- Open Graph -->
+	<meta property="og:title" content="About | Network State Atlas" />
+	<meta property="og:description" content="Learn about network states and how to use this atlas." />
+	<!-- Twitter -->
+	<meta name="twitter:title" content="About | Network State Atlas" />
+	<meta name="twitter:description" content="Learn about network states and how to use this atlas." />
 </svelte:head>
 
 <article class="about">

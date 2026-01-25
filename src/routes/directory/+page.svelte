@@ -38,6 +38,12 @@
 <svelte:head>
 	<title>Directory | Network State Atlas</title>
 	<meta name="description" content="Browse all network states, popup cities, and innovative communities." />
+	<!-- Open Graph -->
+	<meta property="og:title" content="Directory | Network State Atlas" />
+	<meta property="og:description" content="Browse all network states, popup cities, and innovative communities." />
+	<!-- Twitter -->
+	<meta name="twitter:title" content="Directory | Network State Atlas" />
+	<meta name="twitter:description" content="Browse all network states, popup cities, and innovative communities." />
 </svelte:head>
 
 <div class="directory">

@@ -1,6 +1,27 @@
 <script lang="ts">
 	import '../app.css';
+	import { page } from '$app/stores';
+
+	const SITE_NAME = 'Network State Atlas';
+	const BASE_URL = 'https://networkstateatlas.com';
+	const DEFAULT_DESCRIPTION = 'Discover network states, popup cities, and innovative communities around the world.';
+
+	$: canonicalUrl = `${BASE_URL}${$page.url.pathname}`;
 </script>
+
+<svelte:head>
+	<!-- Canonical URL -->
+	<link rel="canonical" href={canonicalUrl} />
+
+	<!-- Open Graph defaults -->
+	<meta property="og:site_name" content={SITE_NAME} />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content={canonicalUrl} />
+	<meta property="og:locale" content="en_US" />
+
+	<!-- Twitter Card defaults -->
+	<meta name="twitter:card" content="summary_large_image" />
+</svelte:head>
 
 <div class="app">
 	<header class="header">

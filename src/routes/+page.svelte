@@ -37,6 +37,25 @@
 		name="description"
 		content="Discover network states, popup cities, and innovative communities around the world."
 	/>
+	<!-- Open Graph -->
+	<meta property="og:title" content="Network State Atlas" />
+	<meta property="og:description" content="Discover network states, popup cities, and innovative communities around the world." />
+	<!-- Twitter -->
+	<meta name="twitter:title" content="Network State Atlas" />
+	<meta name="twitter:description" content="Discover network states, popup cities, and innovative communities around the world." />
+	<!-- JSON-LD Structured Data -->
+	{@html `<script type="application/ld+json">${JSON.stringify({
+		"@context": "https://schema.org",
+		"@type": "WebSite",
+		"name": "Network State Atlas",
+		"url": "https://networkstateatlas.com",
+		"description": "Discover network states, popup cities, and innovative communities around the world.",
+		"potentialAction": {
+			"@type": "SearchAction",
+			"target": "https://networkstateatlas.com/directory?q={search_term_string}",
+			"query-input": "required name=search_term_string"
+		}
+	})}</script>`}
 </svelte:head>
 
 <div class="map-page">

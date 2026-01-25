@@ -6,11 +6,46 @@
 
 	$: community = data.community;
 	$: categoryColor = CATEGORY_COLORS[community.category];
+
+	$: jsonLd = {
+		"@context": "https://schema.org",
+		"@type": "Organization",
+		"name": community.name,
+		"description": community.description,
+		"url": community.links.website || `https://networkstateatlas.com/community/${community.slug}`,
+		"foundingDate": community.founded.toString(),
+		...(community.location.hasPhysical && community.location.coordinates ? {
+			"location": {
+				"@type": "Place",
+				"geo": {
+					"@type": "GeoCoordinates",
+					"latitude": community.location.coordinates[0],
+					"longitude": community.location.coordinates[1]
+				},
+				"name": community.location.label
+			}
+		} : {}),
+		"sameAs": [
+			community.links.website,
+			community.links.twitter,
+			community.links.discord,
+			community.links.telegram,
+			community.links.github
+		].filter(Boolean)
+	};
 </script>
 
 <svelte:head>
 	<title>{community.name} | Network State Atlas</title>
 	<meta name="description" content={community.tagline} />
+	<!-- Open Graph -->
+	<meta property="og:title" content="{community.name} | Network State Atlas" />
+	<meta property="og:description" content={community.tagline} />
+	<!-- Twitter -->
+	<meta name="twitter:title" content="{community.name} | Network State Atlas" />
+	<meta name="twitter:description" content={community.tagline} />
+	<!-- JSON-LD Structured Data -->
+	{@html `<script type="application/ld+json">${JSON.stringify(jsonLd)}</script>`}
 </svelte:head>
 
 <article class="profile">
