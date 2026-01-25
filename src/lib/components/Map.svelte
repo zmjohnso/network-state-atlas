@@ -4,46 +4,48 @@
 	import type { Community, CategoryType, StatusType } from '$lib/types';
 	import { CATEGORY_COLORS, CATEGORY_LABELS } from '$lib/types';
 
-	export let communities: Community[] = [];
-	export let visibleCategories: Set<CategoryType>;
-	export let searchQuery = '';
-	export let selectedStatus: StatusType | '' = '';
-
-	let mapElement: HTMLDivElement;
-	let map: L.Map | null = null;
-	// eslint-disable-next-line @typescript-eslint/no-explicit-any
-	let markersLayer: any = null;
-	let L: typeof import('leaflet') | null = null;
-
-	$: filteredCommunities = communities.filter((c) => {
-		if (!c.location.hasPhysical || !c.location.coordinates) return false;
-		if (!visibleCategories || !visibleCategories.has(c.category)) return false;
-		if (selectedStatus && c.status !== selectedStatus) return false;
-		if (searchQuery && !c.name.toLowerCase().includes(searchQuery.toLowerCase())) return false;
-		return true;
-	});
-
-	$: if (map && markersLayer && L) {
-		updateMarkers(filteredCommunities);
+	interface Props {
+		communities: Community[];
+		visibleCategories: Set<CategoryType>;
+		searchQuery?: string;
+		selectedStatus?: StatusType | '';
 	}
 
-	function updateMarkers(communities: Community[]) {
-		if (!markersLayer || !L) return;
+	let { communities, visibleCategories, searchQuery = '', selectedStatus = '' }: Props = $props();
+
+	let mapElement: HTMLDivElement;
+	let map: L.Map | null = $state(null);
+	let markersLayer: any = $state(null);
+	let leafletLib: typeof import('leaflet') | null = $state(null);
+	let mapReady = $state(false);
+
+	let filteredCommunities = $derived(
+		communities.filter((c) => {
+			if (!c.location.hasPhysical || !c.location.coordinates) return false;
+			if (!visibleCategories || !visibleCategories.has(c.category)) return false;
+			if (selectedStatus && c.status !== selectedStatus) return false;
+			if (searchQuery && !c.name.toLowerCase().includes(searchQuery.toLowerCase())) return false;
+			return true;
+		})
+	);
+
+	function updateMarkers(communitiesToShow: Community[]) {
+		if (!markersLayer || !leafletLib) return;
 
 		markersLayer.clearLayers();
 
-		communities.forEach((community) => {
+		communitiesToShow.forEach((community) => {
 			const [lat, lng] = community.location.coordinates!;
 			const color = CATEGORY_COLORS[community.category];
 
-			const icon = L!.divIcon({
+			const icon = leafletLib!.divIcon({
 				className: 'custom-marker',
 				html: `<div style="background-color: ${color}; width: 24px; height: 24px; border-radius: 50%; border: 3px solid white; box-shadow: 0 2px 4px rgba(0,0,0,0.3);"></div>`,
 				iconSize: [24, 24],
 				iconAnchor: [12, 12]
 			});
 
-			const marker = L!.marker([lat, lng], { icon });
+			const marker = leafletLib!.marker([lat, lng], { icon });
 
 			marker.bindPopup(`
 				<div style="min-width: 200px;">
@@ -60,29 +62,43 @@
 		});
 	}
 
+	// Effect to update markers when filters change AND map is ready
+	$effect(() => {
+		if (mapReady && markersLayer && leafletLib) {
+			updateMarkers(filteredCommunities);
+		}
+	});
+
 	onMount(async () => {
 		if (!browser) return;
 
 		const leaflet = await import('leaflet');
-		L = leaflet;
-		// Side-effect import that extends L namespace
-		await import('leaflet.markercluster');
+		leafletLib = leaflet;
 
-		map = leaflet.map(mapElement).setView([20, 0], 2);
+		// Reuse existing window.L if it has MarkerClusterGroup, otherwise set up fresh
+		if (!(window as any).L?.MarkerClusterGroup) {
+			(window as any).L = leaflet;
+			await import('leaflet.markercluster');
+		}
 
-		leaflet.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+		// Use the window.L which has MarkerClusterGroup attached
+		const L = (window as any).L;
+
+		const mapInstance = L.map(mapElement).setView([20, 0], 2);
+		map = mapInstance;
+
+		L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 			attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-		}).addTo(map);
+		}).addTo(mapInstance);
 
-		// MarkerClusterGroup is added to L by the side-effect import
-		markersLayer = new (leaflet as any).MarkerClusterGroup();
-		map.addLayer(markersLayer);
+		markersLayer = new L.MarkerClusterGroup();
+		mapInstance.addLayer(markersLayer);
 
-		// Ensure map container is properly sized, then add markers
-		setTimeout(() => {
-			map?.invalidateSize();
-			updateMarkers(filteredCommunities);
-		}, 100);
+		// Ensure map container is properly sized
+		mapInstance.invalidateSize();
+
+		// Mark map as ready - this triggers the effect to add markers
+		mapReady = true;
 	});
 
 	onDestroy(() => {
