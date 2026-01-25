@@ -964,5 +964,307 @@
 		},
 		"joinInfo": "Visit through their visitor program, then apply for residency.",
 		"lastUpdated": "2025-01-25"
+	},
+	{
+		"slug": "neom-the-line",
+		"name": "NEOM / The Line",
+		"category": "charter-city",
+		"tagline": "A 170km linear city redefining urban living in Saudi Arabia",
+		"description": "The Line is a revolutionary linear city within NEOM, Saudi Arabia's $500 billion megaproject. Designed as two parallel mirrored skyscrapers stretching 170km across the desert, it aims to house 9 million residents with no cars, streets, or carbon emissions. Part of Saudi Vision 2030, it features its own governance structure separate from traditional Saudi institutions.",
+		"founded": 2021,
+		"status": "forming",
+		"location": {
+			"hasPhysical": true,
+			"coordinates": [28.0000, 35.0000],
+			"label": "Tabuk Province, Saudi Arabia"
+		},
+		"focus": ["sustainability", "urban-design", "technology"],
+		"size": "Planned: 9 million residents",
+		"links": {
+			"website": "https://www.neom.com/en-us/regions/theline",
+			"twitter": "https://x.com/ABORASALSAUD"
+		},
+		"joinInfo": "Opportunities available through NEOM careers and investment portals.",
+		"lastUpdated": "2025-01-25"
+	},
+	{
+		"slug": "catawba-digital-economic-zone",
+		"name": "Catawba Digital Economic Zone",
+		"category": "special-economic-zone",
+		"tagline": "America's first jurisdiction built for fintech and digital assets",
+		"description": "The Catawba Digital Economic Zone (CDEZ) is a sovereign regulatory zone created by the Catawba Indian Nation of the Carolinas. It's the first jurisdiction in the United States designed specifically for digital entrepreneurs, featuring crypto-friendly regulations, DAO legal structures, and fintech bank charters under the ULEX legal system.",
+		"founded": 2022,
+		"status": "active",
+		"location": {
+			"hasPhysical": true,
+			"coordinates": [35.0000, -80.9500],
+			"label": "South Carolina, USA"
+		},
+		"focus": ["fintech", "crypto", "digital-assets"],
+		"size": "100+ registered businesses",
+		"links": {
+			"website": "https://catawbadigital.zone",
+			"twitter": "https://x.com/CatawbaZone"
+		},
+		"joinInfo": "Register your LLC or C-Corp through the Zone Authority website.",
+		"lastUpdated": "2025-01-25"
+	},
+	{
+		"slug": "dunia-cyber-city",
+		"name": "Dunia Cyber City",
+		"category": "special-economic-zone",
+		"tagline": "A $1 billion network state for digital nomads in Zanzibar",
+		"description": "Dunia Cyber City is a special economic zone in Zanzibar developed in partnership with OurWorld. Inspired by the network state concept, it offers electronic residency for crypto developers and digital nomads. The project is part of Zanzibar's blockchain sandbox initiative and Tether partnership to become a global fintech hub.",
+		"founded": 2024,
+		"status": "forming",
+		"location": {
+			"hasPhysical": true,
+			"coordinates": [-6.1659, 39.2026],
+			"label": "Zanzibar, Tanzania"
+		},
+		"focus": ["crypto", "digital-nomads", "fintech"],
+		"size": "100+ residents, 30+ companies",
+		"links": {
+			"website": "https://ourworld.tf"
+		},
+		"joinInfo": "Apply for electronic residency through the Dunia Cyber City portal.",
+		"lastUpdated": "2025-01-25"
+	},
+	{
+		"slug": "konza-technopolis",
+		"name": "Konza Technopolis",
+		"category": "special-economic-zone",
+		"tagline": "Africa's Silicon Savannah smart city in Kenya",
+		"description": "Konza Technopolis is a $14.5 billion smart city project 60km south of Nairobi, Kenya. As a gazetted Special Economic Zone, it's East Africa's largest innovation hub, featuring data centers, tech campuses, and BPO facilities. The 5,000-acre master-planned city aims to drive Kenya's digital economy transformation.",
+		"founded": 2013,
+		"status": "forming",
+		"location": {
+			"hasPhysical": true,
+			"coordinates": [-1.7500, 37.1333],
+			"label": "Machakos County, Kenya"
+		},
+		"focus": ["technology", "innovation", "smart-city"],
+		"size": "Planned: 200,000+ residents",
+		"links": {
+			"website": "https://konza.go.ke",
+			"twitter": "https://x.com/KonzaTech"
+		},
+		"joinInfo": "Explore investment and residency opportunities through the Konza website.",
+		"lastUpdated": "2025-01-25"
+	},
+	{
+		"slug": "stead",
+		"name": "Stead",
+		"category": "network-city",
+		"tagline": "Building regenerative villages across the Americas",
+		"description": "Stead is developing a network of regenerative villages focused on sustainable living, permaculture, and community resilience. The project combines traditional village design with modern technology to create thriving local economies.",
+		"founded": 2022,
+		"status": "active",
+		"location": {
+			"hasPhysical": true,
+			"coordinates": [9.7489, -83.7534],
+			"label": "Costa Rica, Americas"
+		},
+		"focus": ["regeneration", "permaculture", "sustainability"],
+		"size": "500+ community members",
+		"links": {
+			"website": "https://www.buildstead.com",
+			"twitter": "https://x.com/buildstead"
+		},
+		"joinInfo": "Apply through their website for village residency or membership.",
+		"lastUpdated": "2025-01-25"
+	},
+	{
+		"slug": "pop-up-city-asia",
+		"name": "Popup City Asia",
+		"category": "popup-city",
+		"tagline": "Zuzalu-inspired gatherings across Asia",
+		"description": "Popup City Asia organizes Zuzalu-style temporary communities across Asian cities, bringing together builders, researchers, and innovators for immersive multi-week experiences focused on technology, governance, and community building.",
+		"founded": 2024,
+		"status": "active",
+		"location": {
+			"hasPhysical": true,
+			"coordinates": [13.7563, 100.5018],
+			"label": "Thailand, Southeast Asia"
+		},
+		"focus": ["innovation", "community", "technology"],
+		"size": "200+ per event",
+		"links": {
+			"website": "https://popup.city",
+			"twitter": "https://x.com/popaborupcity"
+		},
+		"joinInfo": "Apply for upcoming events through their website.",
+		"lastUpdated": "2025-01-25"
+	},
+	{
+		"slug": "radicalxchange",
+		"name": "RadicalxChange",
+		"category": "digital-community",
+		"tagline": "Reimagining the building blocks of democracy and markets",
+		"description": "RadicalxChange is a global movement dedicated to reimagining capitalism and democracy. Founded on ideas from 'Radical Markets,' the community develops new mechanisms for governance, voting, property rights, and collective decision-making through research and experimentation.",
+		"founded": 2018,
+		"status": "active",
+		"location": {
+			"hasPhysical": false,
+			"label": "Global (virtual)"
+		},
+		"focus": ["governance", "democracy", "markets"],
+		"size": "10,000+ community members",
+		"links": {
+			"website": "https://www.radicalxchange.org",
+			"twitter": "https://x.com/RadxChange"
+		},
+		"joinInfo": "Join through their website, attend events, or participate in working groups.",
+		"lastUpdated": "2025-01-25"
+	},
+	{
+		"slug": "common-ground",
+		"name": "Common Ground",
+		"category": "intentional-community",
+		"tagline": "Building regenerative communities in Portugal",
+		"description": "Common Ground is developing regenerative community projects in Portugal, combining permaculture, natural building, and intentional community living. The project focuses on land stewardship and creating models for sustainable rural development.",
+		"founded": 2020,
+		"status": "active",
+		"location": {
+			"hasPhysical": true,
+			"coordinates": [39.3999, -8.2245],
+			"label": "Central Portugal"
+		},
+		"focus": ["regeneration", "permaculture", "community"],
+		"size": "50+ residents",
+		"links": {
+			"website": "https://www.commonground.pt"
+		},
+		"joinInfo": "Visit for workshops or apply for residency through their website.",
+		"lastUpdated": "2025-01-25"
+	},
+	{
+		"slug": "pop-village",
+		"name": "Pop Village",
+		"category": "popup-city",
+		"tagline": "Month-long coliving experiences for remote workers in Europe",
+		"description": "Pop Village creates temporary coliving communities in beautiful European locations, bringing together remote workers and digital nomads for month-long experiences. Each village focuses on work, wellness, and community building.",
+		"founded": 2021,
+		"status": "active",
+		"location": {
+			"hasPhysical": true,
+			"coordinates": [41.9028, 12.4964],
+			"label": "Italy, Portugal, Spain"
+		},
+		"focus": ["remote-work", "coliving", "community"],
+		"size": "50-100 per village",
+		"links": {
+			"website": "https://www.popvillage.co",
+			"twitter": "https://x.com/popvillage"
+		},
+		"joinInfo": "Apply through their website for upcoming villages.",
+		"lastUpdated": "2025-01-25"
+	},
+	{
+		"slug": "free-state-project",
+		"name": "Free State Project",
+		"category": "intentional-community",
+		"tagline": "20,000 libertarians moving to New Hampshire for liberty in our lifetime",
+		"description": "The Free State Project is a political migration movement founded in 2001 by Jason Sorens to recruit libertarians to move to New Hampshire. By concentrating liberty-minded individuals in one low-population state, the movement aims to create a stronghold for libertarian ideas. Over 6,000 'Free Staters' have already moved, with many elected to the 400-member NH House of Representatives.",
+		"founded": 2001,
+		"status": "active",
+		"location": {
+			"hasPhysical": true,
+			"coordinates": [43.1939, -71.5724],
+			"label": "New Hampshire, USA"
+		},
+		"focus": ["libertarianism", "politics", "freedom"],
+		"size": "6,000+ movers, 20,000+ pledged",
+		"links": {
+			"website": "https://www.fsp.org",
+			"twitter": "https://x.com/FreeStateNH"
+		},
+		"joinInfo": "Sign the statement of intent on fsp.org and plan your move to New Hampshire.",
+		"lastUpdated": "2025-01-25"
+	},
+	{
+		"slug": "penadexo",
+		"name": "Free Commune of Peñadexo",
+		"category": "intentional-community",
+		"tagline": "Restoring an abandoned village in Spain as a liberty incubator",
+		"description": "The Free Commune is restoring an abandoned village in Galicia, Spain, building a self-sufficient community based on permaculture principles and voluntary cooperation. Founded on the heritage of local tax rebellions, Peñadexo hosts festivals and aims to produce food for residents plus 50 additional people through sustainable agriculture.",
+		"founded": 2024,
+		"status": "forming",
+		"location": {
+			"hasPhysical": true,
+			"coordinates": [42.5500, -7.4500],
+			"label": "Galicia, Spain"
+		},
+		"focus": ["permaculture", "self-sufficiency", "liberty"],
+		"size": "20+ residents",
+		"links": {
+			"website": "https://www.freecommune.org"
+		},
+		"joinInfo": "Visit their website to learn about residency and volunteer opportunities.",
+		"lastUpdated": "2025-01-25"
+	},
+	{
+		"slug": "liberstad",
+		"name": "Liberstad",
+		"category": "charter-city",
+		"tagline": "Norway's private anarcho-capitalist city using cryptocurrency",
+		"description": "Liberstad is a 370-acre private city in Southern Norway founded on voluntaryist principles. With no city council or government, essential services are managed by private entities and voluntary associations. The city uses its own cryptocurrency (CITY) on the City Chain blockchain platform, with residents still subject to Norwegian law.",
+		"founded": 2017,
+		"status": "forming",
+		"location": {
+			"hasPhysical": true,
+			"coordinates": [58.3500, 7.0500],
+			"label": "Southern Norway"
+		},
+		"focus": ["voluntaryism", "crypto", "private-governance"],
+		"size": "50+ members",
+		"links": {
+			"website": "https://www.liberstad.com",
+			"twitter": "https://x.com/liberstadcity"
+		},
+		"joinInfo": "Apply for membership and land purchase through their website.",
+		"lastUpdated": "2025-01-25"
+	},
+	{
+		"slug": "sark",
+		"name": "Sark",
+		"category": "special-economic-zone",
+		"tagline": "A libertarian paradise in the Channel Islands with minimal taxation",
+		"description": "Sark is a self-governing British Crown Dependency in the English Channel with about 500 residents. Often called a 'libertarian paradise,' it features no income tax or VAT, minimal employment law, and little government intervention. The island sets its own laws, bans automobiles, and operates with property-based taxation where residents aren't required to disclose income or assets.",
+		"founded": 1565,
+		"status": "active",
+		"location": {
+			"hasPhysical": true,
+			"coordinates": [49.4319, -2.3617],
+			"label": "Channel Islands, British Crown Dependency"
+		},
+		"focus": ["minimal-taxation", "self-governance", "freedom"],
+		"size": "500+ residents",
+		"links": {
+			"website": "https://www.sark.co.uk"
+		},
+		"joinInfo": "Research residency requirements; no income tax but property-based levies apply.",
+		"lastUpdated": "2025-01-25"
+	},
+	{
+		"slug": "small-farm-cities",
+		"name": "Small Farm Cities Africa",
+		"category": "intentional-community",
+		"tagline": "Tech-enabled agricultural communities creating jobs in Malawi",
+		"description": "Small Farm Cities Africa is a social impact startup building affordable, job-creating agricultural communities in Malawi. The model integrates commercial drip-irrigated greenhouse farming, poultry, aquaculture, and hyper-affordable housing to unlock home ownership and upward mobility for working-class Africans.",
+		"founded": 2020,
+		"status": "active",
+		"location": {
+			"hasPhysical": true,
+			"coordinates": [-13.2543, 34.3015],
+			"label": "Malawi, Africa"
+		},
+		"focus": ["agriculture", "affordable-housing", "sustainability"],
+		"size": "100+ residents",
+		"links": {
+			"website": "https://www.smallfarmcities.com"
+		},
+		"joinInfo": "Contact through their website for investment or residency opportunities.",
+		"lastUpdated": "2025-01-25"
 	}
 ]
