@@ -1,4 +1,7 @@
 <script lang="ts">
+	import { onMount } from 'svelte';
+	import { browser } from '$app/environment';
+	import { goto } from '$app/navigation';
 	import Map from '$lib/components/Map.svelte';
 	import MapFilters from '$lib/components/MapFilters.svelte';
 	import MapLegend from '$lib/components/MapLegend.svelte';
@@ -20,6 +23,33 @@
 	let visibleCategories = new Set<CategoryType>(allCategories);
 	let searchQuery = '';
 	let selectedStatus: StatusType | '' = '';
+	let initialized = false;
+
+	onMount(() => {
+		const params = new URLSearchParams(window.location.search);
+		searchQuery = params.get('q') ?? '';
+		selectedStatus = (params.get('status') as StatusType | '') ?? '';
+		const catParam = params.get('categories');
+		if (catParam) {
+			const cats = catParam.split(',').filter((c): c is CategoryType =>
+				allCategories.includes(c as CategoryType)
+			);
+			visibleCategories = new Set<CategoryType>(cats);
+		}
+		initialized = true;
+	});
+
+	function syncUrl() {
+		if (!initialized || !browser) return;
+		const params = new URLSearchParams();
+		if (searchQuery) params.set('q', searchQuery);
+		if (selectedStatus) params.set('status', selectedStatus);
+		if (visibleCategories.size < allCategories.length && visibleCategories.size > 0) {
+			params.set('categories', [...visibleCategories].join(','));
+		}
+		const qs = params.toString();
+		goto(qs ? `?${qs}` : '/', { replaceState: true, keepFocus: true, noScroll: true });
+	}
 
 	function toggleCategory(category: CategoryType) {
 		if (visibleCategories.has(category)) {
@@ -28,7 +58,10 @@
 			visibleCategories.add(category);
 		}
 		visibleCategories = visibleCategories;
+		syncUrl();
 	}
+
+	$: searchQuery, selectedStatus, syncUrl();
 </script>
 
 <svelte:head>

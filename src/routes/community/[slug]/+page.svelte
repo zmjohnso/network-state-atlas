@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { CATEGORY_LABELS, CATEGORY_COLORS, STATUS_LABELS } from '$lib/types';
+	import MiniMap from '$lib/components/MiniMap.svelte';
 	import type { PageData } from './$types';
 
 	export let data: PageData;
@@ -87,6 +88,13 @@
 						Digital Community — {community.location.label}
 					{/if}
 				</dd>
+				{#if community.location.hasPhysical && community.location.coordinates}
+					<MiniMap
+						coordinates={community.location.coordinates}
+						name={community.name}
+						color={categoryColor}
+					/>
+				{/if}
 			</dl>
 		</div>
 

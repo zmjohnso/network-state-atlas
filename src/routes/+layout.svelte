@@ -2,6 +2,7 @@
 	import '../app.css';
 	import { page } from '$app/stores';
 	import { theme } from '$lib/stores/theme';
+	import { PUBLIC_UMAMI_WEBSITE_ID } from '$env/static/public';
 
 	const SITE_NAME = 'Network State Atlas';
 	const BASE_URL = 'https://networkstateatlas.com';
@@ -22,6 +23,11 @@
 
 	<!-- Twitter Card defaults -->
 	<meta name="twitter:card" content="summary_large_image" />
+
+	<!-- Umami Analytics -->
+	{#if PUBLIC_UMAMI_WEBSITE_ID}
+		<script defer src="https://cloud.umami.is/script.js" data-website-id={PUBLIC_UMAMI_WEBSITE_ID}></script>
+	{/if}
 </svelte:head>
 
 <div class="app">
@@ -29,6 +35,7 @@
 		<a href="/" class="logo">Network State Atlas</a>
 		<nav class="nav">
 			<a href="/directory">Directory</a>
+			<a href="/submit">Submit</a>
 			<a href="/about">About</a>
 			<button class="theme-toggle" on:click={() => theme.toggle()} aria-label="Toggle theme">
 				{#if $theme === 'light'}
