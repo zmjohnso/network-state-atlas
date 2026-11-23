@@ -4,7 +4,7 @@
 		"name": "Próspera",
 		"category": "charter-city",
 		"tagline": "Building a startup city on Honduras' Roatan Island",
-		"description": "Próspera is a special economic zone and charter city project on the island of Roatán, Honduras. It operates under a special legal framework (ZEDE) that allows for alternative governance structures, attracting entrepreneurs and innovators seeking regulatory flexibility.",
+		"description": "Próspera is a special economic zone and charter city project on the island of Roatán, Honduras. It operates under a special legal framework (ZEDE) that allows for alternative governance structures, attracting entrepreneurs and innovators seeking regulatory flexibility. Honduras repealed the ZEDE framework in 2022, and Próspera is pursuing an ICSID arbitration claim of about $10.8 billion that was still pending as of mid-2026.",
 		"founded": 2020,
 		"status": "active",
 		"location": {
@@ -19,7 +19,7 @@
 			"twitter": "https://x.com/prosperaglobal"
 		},
 		"joinInfo": "Apply for residency or e-residency through their website. Visit for tours and events.",
-		"lastUpdated": "2025-01-24"
+		"lastUpdated": "2026-11-22"
 	},
 	{
 		"slug": "cabin",
@@ -102,26 +102,26 @@
 			"label": "Tempe, Arizona, USA"
 		},
 		"focus": ["car-free", "urban-design", "sustainability"],
-		"size": "1,000+ residents",
+		"size": "350+ residents (1,000 planned at full build)",
 		"links": {
 			"website": "https://culdesac.com",
 			"twitter": "https://x.com/culdesac"
 		},
 		"joinInfo": "Apply for an apartment through their website. Currently open for leasing.",
-		"lastUpdated": "2025-01-24"
+		"lastUpdated": "2026-11-22"
 	},
 	{
 		"slug": "network-school",
 		"name": "Network School",
 		"category": "popup-city",
 		"tagline": "A startup society for tech founders, AI creators, and remote workers",
-		"description": "Network School is a physical campus and online community founded by Balaji Srinivasan. It brings together tech founders, AI creators, and remote workers in the Singapore-Johor Special Economic Zone to learn, build, and network.",
+		"description": "Network School is a physical campus and online community founded by Balaji Srinivasan. It brings together tech founders, AI creators, and remote workers to learn, build, and network. The community started at Forest City in Johor, Malaysia, but relocated to Astana, Kazakhstan in July 2026 after Johor authorities revoked its operator's business licence. It now operates from the Alem.ai International AI Center under an MoU with the Kazakh government.",
 		"founded": 2024,
 		"status": "active",
 		"location": {
 			"hasPhysical": true,
-			"coordinates": [1.4655, 103.7578],
-			"label": "Singapore-Johor Special Economic Zone"
+			"coordinates": [51.1694, 71.4491],
+			"label": "Astana, Kazakhstan"
 		},
 		"focus": ["technology", "AI", "entrepreneurship"],
 		"size": "500+ members",
@@ -130,14 +130,14 @@
 			"twitter": "https://x.com/balajis"
 		},
 		"joinInfo": "Apply through the Network School website for admission.",
-		"lastUpdated": "2025-01-24"
+		"lastUpdated": "2026-11-22"
 	},
 	{
 		"slug": "satoshi-island",
 		"name": "Satoshi Island",
 		"category": "charter-city",
 		"tagline": "Building a crypto community in Vanuatu",
-		"description": "Satoshi Island is an ambitious project to build a crypto-focused community on a private island in Vanuatu. The project aims to create a physical home for the crypto community with sustainable infrastructure and blockchain-native governance.",
+		"description": "Satoshi Island is an ambitious project to build a crypto-focused community on a private island in Vanuatu. The project aims to create a physical home for the crypto community with sustainable infrastructure and blockchain-native governance. Land and citizenship were sold as NFTs, but press reports say no homes have been delivered, and Vanuatu's immigration regulator warned in 2024 that owning an NFT does not guarantee residency rights.",
 		"founded": 2021,
 		"status": "forming",
 		"location": {
@@ -153,7 +153,7 @@
 			"discord": "https://discord.gg/satoshiisland"
 		},
 		"joinInfo": "Purchase citizenship NFTs or apply through their website.",
-		"lastUpdated": "2025-01-24"
+		"lastUpdated": "2026-11-22"
 	},
 	{
 		"slug": "citydao",
@@ -271,22 +271,65 @@
 		"name": "Edge Esmeralda",
 		"category": "popup-city",
 		"tagline": "A month-long gathering for people building a brighter future",
-		"description": "Edge Esmeralda is a popup city event that brings together builders, creators, and innovators for an immersive month-long experience. Part of the growing Edge City network of popup communities around the world.",
+		"description": "Edge Esmeralda is a popup city event that brings together builders, creators, and innovators for an immersive month-long experience. The 2026 edition ran in Healdsburg, California from May 30 to June 27 with 850+ residents. Part of the Edge City network of popup villages around the world.",
 		"founded": 2024,
 		"status": "active",
 		"location": {
 			"hasPhysical": true,
-			"coordinates": [37.7749, -122.4194],
-			"label": "USA (various locations)"
+			"coordinates": [38.6102, -122.8694],
+			"label": "Healdsburg, California, USA"
 		},
 		"focus": ["innovation", "community", "future-building"],
-		"size": "300+ per event",
+		"size": "850+ residents (2026)",
 		"links": {
 			"website": "https://edgecity.live",
 			"twitter": "https://x.com/EdgeEsmeralda"
 		},
 		"joinInfo": "Apply through their ticketing platform for upcoming events.",
-		"lastUpdated": "2025-01-24"
+		"lastUpdated": "2026-11-22"
+	},
+	{
+		"slug": "edge-city",
+		"name": "Edge City",
+		"category": "popup-city",
+		"tagline": "Popup villages for people building the future",
+		"description": "Edge City runs month-long popup villages where builders, scientists, and creators live and work together. Since 2023 it has run around nine villages, including Edge Esmeralda in California, Edge City Lanna in Thailand, Edge City Patagonia in Argentina, and Edge City India in Goa (October 2026). Its next listed village is Edge City Bhutan in March 2027.",
+		"founded": 2023,
+		"status": "active",
+		"location": {
+			"hasPhysical": true,
+			"coordinates": [15.6586, 73.7131],
+			"label": "Global (latest village: Mandrem, Goa, India)"
+		},
+		"focus": ["popup villages", "frontier tech", "community"],
+		"size": "12,000+ builders across villages",
+		"links": {
+			"website": "https://www.edgecity.live",
+			"twitter": "https://x.com/JoinEdgeCity"
+		},
+		"joinInfo": "Apply for upcoming popup villages through the Edge City website.",
+		"lastUpdated": "2026-11-22"
+	},
+	{
+		"slug": "ipe-city",
+		"name": "Ipê City",
+		"category": "popup-city",
+		"tagline": "Internet-native cities built through annual popup villages in Brazil",
+		"description": "Ipê City is a community of techno-optimists building social technologies for internet-native cities. Its annual Ipê Village popup in Jurerê, Florianópolis brings builders together for a month of coliving, hacker houses, workshops, and demo days. The 2026 edition drew 535 participants from 13 countries.",
+		"founded": 2024,
+		"status": "active",
+		"location": {
+			"hasPhysical": true,
+			"coordinates": [-27.4398, -48.5100],
+			"label": "Jurerê, Florianópolis, Brazil"
+		},
+		"focus": ["popup villages", "startup societies", "governance"],
+		"size": "535 participants (2026 village)",
+		"links": {
+			"website": "https://ipe.city"
+		},
+		"joinInfo": "Apply for the next Ipê Village or join community events through the Ipê City website.",
+		"lastUpdated": "2026-11-22"
 	},
 	{
 		"slug": "infinita",
@@ -489,13 +532,13 @@
 		"name": "Vitalist Bay",
 		"category": "popup-city",
 		"tagline": "Bringing together the world's leading minds to extend human healthspan",
-		"description": "Vitalist Bay is a popup city focused on longevity science and healthspan extension. It brings together researchers, entrepreneurs, and biohackers to accelerate progress on anti-aging technologies.",
+		"description": "Vitalist Bay is a popup city focused on longevity science and healthspan extension. It brings together researchers, entrepreneurs, and biohackers to accelerate progress on anti-aging technologies. The 2025 edition ran as an eight-week longevity zone at the Lighthaven campus in Berkeley, and the 2026 edition was a four-day festival there on May 14 to 17.",
 		"founded": 2024,
 		"status": "active",
 		"location": {
 			"hasPhysical": true,
-			"coordinates": [37.7749, -122.4194],
-			"label": "USA"
+			"coordinates": [37.8546, -122.2582],
+			"label": "Berkeley, California, USA"
 		},
 		"focus": ["longevity", "healthspan", "science"],
 		"size": "200+ per event",
@@ -504,7 +547,7 @@
 			"twitter": "https://x.com/VitalistBay"
 		},
 		"joinInfo": "Apply through their website for upcoming events.",
-		"lastUpdated": "2025-01-24"
+		"lastUpdated": "2026-11-22"
 	},
 	{
 		"slug": "kift",
@@ -970,7 +1013,7 @@
 		"name": "NEOM / The Line",
 		"category": "charter-city",
 		"tagline": "A 170km linear city redefining urban living in Saudi Arabia",
-		"description": "The Line is a revolutionary linear city within NEOM, Saudi Arabia's $500 billion megaproject. Designed as two parallel mirrored skyscrapers stretching 170km across the desert, it aims to house 9 million residents with no cars, streets, or carbon emissions. Part of Saudi Vision 2030, it features its own governance structure separate from traditional Saudi institutions.",
+		"description": "The Line is a revolutionary linear city within NEOM, Saudi Arabia's $500 billion megaproject. Designed as two parallel mirrored skyscrapers stretching 170km across the desert, it aimed to house 9 million residents with no cars, streets, or carbon emissions. In 2026 Saudi Arabia drastically scaled the project back, and press reports say work on The Line is paused until after 2030, with a much smaller initial phase now planned. Part of Saudi Vision 2030.",
 		"founded": 2021,
 		"status": "forming",
 		"location": {
@@ -979,13 +1022,13 @@
 			"label": "Tabuk Province, Saudi Arabia"
 		},
 		"focus": ["sustainability", "urban-design", "technology"],
-		"size": "Planned: 9 million residents",
+		"size": "Originally planned: 9 million residents (scaled back)",
 		"links": {
 			"website": "https://www.neom.com/en-us/regions/theline",
 			"twitter": "https://x.com/ABORASALSAUD"
 		},
 		"joinInfo": "Opportunities available through NEOM careers and investment portals.",
-		"lastUpdated": "2025-01-25"
+		"lastUpdated": "2026-11-22"
 	},
 	{
 		"slug": "catawba-digital-economic-zone",
